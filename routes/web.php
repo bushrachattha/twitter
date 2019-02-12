@@ -31,6 +31,8 @@ Route::post('posts', 'PostController@savePost');
 Route::delete('/delete-post', 'homeController@deletePost')->name('delete_post');
 
 
+
+
 Route::get('users/{user}', 'UserController@show')->name('user.show');
 
 Route::get('users/{user}/follow', 'UserController@follow')->name('user.follow');
